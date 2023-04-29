@@ -269,4 +269,8 @@
     <!-- Backup Transport selector -->
     <string name="transport_selector_title">Backup Transport</string>
 
+   <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+
 </resources>
