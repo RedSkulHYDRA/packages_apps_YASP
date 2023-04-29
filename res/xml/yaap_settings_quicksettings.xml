@@ -48,6 +48,13 @@
         android:dependency="qs_footer_text_show"
         android:defaultValue="YAAP" />
 
+    <!-- Haptic Feedback on qs tiles -->
+    <com.yasp.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_tiles_haptic_feedback"
+        android:title="@string/qs_tiles_haptic_feedback_title"
+        android:summary="@string/qs_tiles_haptic_feedback_summary"
+        android:defaultValue="true"/>
+
     <!-- Media player in QS -->
     <com.yasp.settings.preferences.GlobalSettingSwitchPreference
         android:key="qs_media_controls"
