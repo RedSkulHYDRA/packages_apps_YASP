@@ -262,4 +262,8 @@
     <!-- Backup Transport selector -->
     <string name="transport_selector_title">Backup Transport</string>
 
+   <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+
 </resources>
