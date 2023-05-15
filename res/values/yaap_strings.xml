@@ -301,4 +301,8 @@
     <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
     <string name="volume_panel_haptic_feedback_summary">Improves the UX while changing volume</string>
 
+   <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Show 4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
 </resources>
