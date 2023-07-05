@@ -27,4 +27,10 @@
         android:summary="@string/qs_show_auto_brightness_summary"
         android:defaultValue="true" />
 
+    <com.yasp.settings.preferences.SystemSettingSwitchPreference
+        android:key="brightness_slider_haptic_feedback"
+        android:title="@string/brightness_slider_haptic_feedback_title"
+        android:summary="@string/brightness_slider_haptic_feedback_summary"
+        android:defaultValue="false"
+        settings:controller="com.yasp.settings.fragments.BrightnessSliderHapticPreferenceController" />
 </PreferenceScreen>
