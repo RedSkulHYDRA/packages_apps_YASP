@@ -361,4 +361,8 @@
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
 
+   <!-- Brightness slider haptic -->
+    <string name="brightness_slider_haptic_title">Vibrate on brightness slider changes</string>
+    <string name="brightness_slider_haptic_summary">Improves the UX while dragging the brightness slider</string>
+
 </resources>
