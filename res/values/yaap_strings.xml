@@ -40,6 +40,7 @@
     <string name="save">Save</string>
     <string name="default_string">Default</string>
     <string name="disabled">Disabled</string>
+    <string name="failure">Failure</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -364,5 +365,8 @@
    <!-- Brightness slider haptic -->
     <string name="brightness_slider_haptic_title">Vibrate on brightness slider changes</string>
     <string name="brightness_slider_haptic_summary">Improves the UX while dragging the brightness slider</string>
+
+    <!-- Backup Transport selector -->
+    <string name="transport_selector_title">Backup Transport</string>
 
 </resources>
