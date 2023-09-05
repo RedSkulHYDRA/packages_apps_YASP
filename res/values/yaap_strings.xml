@@ -366,6 +366,10 @@
     <string name="brightness_slider_haptic_title">Vibrate on brightness slider changes</string>
     <string name="brightness_slider_haptic_summary">Improves the UX while dragging the brightness slider</string>
 
+   <!-- Volume slider haptic -->
+    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
+    <string name="volume_panel_haptic_feedback_summary">Improves the UX while changing volume</string>
+
     <!-- Backup Transport selector -->
     <string name="transport_selector_title">Backup Transport</string>
 
