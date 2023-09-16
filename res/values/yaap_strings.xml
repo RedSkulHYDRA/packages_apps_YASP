@@ -370,6 +370,10 @@
     <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
     <string name="volume_panel_haptic_feedback_summary">Improves the UX while changing volume</string>
 
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+
     <!-- Backup Transport selector -->
     <string name="transport_selector_title">Backup Transport</string>
 
