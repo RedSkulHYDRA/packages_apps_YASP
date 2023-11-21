@@ -48,9 +48,6 @@ public class NotificationsSettings extends DashboardFragment implements
     private static final String TAG = "NotificationsSettings";
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     private static final String KEY_BATT_LIGHT = "battery_light_enabled";
-    private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
-
-    private SystemSettingMasterSwitchPreference mEdgeLightning;
 
     @Override
     protected int getPreferenceScreenResId() {
@@ -68,24 +65,11 @@ public class NotificationsSettings extends DashboardFragment implements
         if (!Utils.isVoiceCapable(getActivity())) {
             prefScreen.removePreference(incallVibCategory);
         }
-
-        mEdgeLightning = (SystemSettingMasterSwitchPreference)
-                findPreference(KEY_EDGE_LIGHTNING);
-        boolean enabled = Settings.System.getIntForUser(resolver,
-                KEY_EDGE_LIGHTNING, 0, UserHandle.USER_CURRENT) == 1;
-        mEdgeLightning.setChecked(enabled);
-        mEdgeLightning.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mEdgeLightning) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putIntForUser(resolver, KEY_EDGE_LIGHTNING,
-                    value ? 1 : 0, UserHandle.USER_CURRENT);
-            return true;
-        }
         return false;
     }
 
